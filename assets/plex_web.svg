@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Main" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#4555A5;stroke:#4555A5;stroke-miterlimit:10;}
+</style>
+<rect id="Background" class="st0" width="400" height="400"/>
+<g id="Letter">
+	<g id="Curve">
+		<path class="st1" d="M233.83,65.37h-97.72l-18.67,18.67h116.14c30.18,0,54.73,24.55,54.73,54.73s-24.55,54.73-54.73,54.73h-48.52
+			v3.97v14.7h48.76c40.37,0,73.4-33.03,73.4-73.4l0,0C307.23,98.4,274.2,65.37,233.83,65.37z"/>
+		<path class="st1" d="M233.58,108.7c16.54,0,30.07,13.53,30.07,30.07l0,0c0,16.54-13.53,30.07-30.07,30.07h-48.52v18.67h48.52
+			c26.87,0,48.73-21.86,48.73-48.73s-21.86-48.73-48.73-48.73H111.44L92.77,108.7H233.58z"/>
+	</g>
+	<g id="Stem">
+		<polygon class="st1" points="135.76,119.69 135.76,182.83 135.76,334.63 154.43,334.63 154.43,140.49 		"/>
+		<polygon class="st1" points="160.43,147.17 160.43,334.63 179.1,334.63 179.1,182.83 179.1,167.96 		"/>
+	</g>
+</g>
+</svg>
