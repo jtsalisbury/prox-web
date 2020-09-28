@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-title>Help</mat-card-title>
+
+    <mat-card-content>
+        <table mat-table [dataSource]="commands" class="fullTable">
+            <ng-container matColumnDef="prettyName">
+                <th mat-header-cell *matHeaderCellDef>Name</th>
+                <td mat-cell *matCellDef="let command"> {{command.prettyName}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="aliases">
+                <th mat-header-cell *matHeaderCellDef>Called with</th>
+                <td mat-cell *matCellDef="let command"> {{command.aliases.join(', ')}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="help">
+                <th mat-header-cell *matHeaderCellDef>Help</th>
+                <td mat-cell *matCellDef="let command"> {{command.help}} </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let commands; columns: displayedColumns"></tr>
+        </table>
+    </mat-card-content>
+</mat-card>

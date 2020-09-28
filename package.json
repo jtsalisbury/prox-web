@@ -1,5 +1,5 @@
 {
-  "name": "plex-web",
+  "name": "prox-web",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -14,10 +14,12 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.2",
+    "@angular/cdk": "^10.2.2",
     "@angular/common": "~10.1.2",
     "@angular/compiler": "~10.1.2",
     "@angular/core": "~10.1.2",
     "@angular/forms": "~10.1.2",
+    "@angular/material": "^10.2.2",
     "@angular/platform-browser": "~10.1.2",
     "@angular/platform-browser-dynamic": "~10.1.2",
     "@angular/router": "~10.1.2",

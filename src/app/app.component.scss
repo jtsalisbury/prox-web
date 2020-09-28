@@ -1,0 +1,12 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.fullscreen {
+    width: 100vw;
+    height: calc(100% - 64px);
+}
+
+.container {
+    margin: 20px;
+}
