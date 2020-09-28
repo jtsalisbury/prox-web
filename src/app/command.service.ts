@@ -24,6 +24,6 @@ export class CommandService {
   constructor(private http: HttpClient) {}
 
   getAll() {
-    return this.http.get("https://cors-anywhere.herokuapp.com/https://damp-coast-58076.herokuapp.com/help");
+    return this.http.get("https://cors-anywhere.herokuapp.com/https://discord-prox.herokuapp.com/help");
   }
 }
