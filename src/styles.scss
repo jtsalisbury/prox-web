@@ -7,3 +7,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 100%;
     overflow: scroll;
 }
+
+mat-card-content {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.row-clickable:hover {
+    background-color: #ededed;
+    cursor: pointer;
+}

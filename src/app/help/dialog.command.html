@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>{{data.prettyName}}</h1>
+<div mat-dialog-content>
+    <p>{{data.help}}</p>
+    <p>
+        Called with: !{{data.aliases[0]}}
+        <span *ngFor="let param of data.params">
+            <span *ngIf="param.optional">[</span>
+            <span *ngIf="!param.optional"><</span>{{param.name}}, {{param.type}}<span *ngIf="param.optional">
+                <span *ngIf="param.default != null"> = {{param.default}}</span>] 
+            </span>
+            <span *ngIf="!param.optional">> </span>
+        </span>
+    </p>
+    <span *ngIf="data.aliases.length > 1">Aliases: {{data.aliases.slice(1).join(', ')}}</span>
+</div>

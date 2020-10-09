@@ -2,6 +2,7 @@
     <mat-card-title>Help</mat-card-title>
 
     <mat-card-content>
+        Click on a row for more information
         <table mat-table [dataSource]="commands" class="fullTable">
             <ng-container matColumnDef="prettyName">
                 <th mat-header-cell *matHeaderCellDef>Name</th>
@@ -19,7 +20,9 @@
             </ng-container>
 
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-            <tr mat-row *matRowDef="let commands; columns: displayedColumns"></tr>
+            <tr class="row-clickable" mat-row *matRowDef="let commands; columns: displayedColumns" (click)="showMore(commands)"></tr>
         </table>
     </mat-card-content>
 </mat-card>
+
+

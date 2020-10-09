@@ -4,7 +4,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export interface CommandData {
   prettyName: string;
   help: string;
-  aliases: [string];
+  aliases: any;
   params: [{
     name: string;
     type: string;
