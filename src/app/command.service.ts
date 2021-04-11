@@ -24,6 +24,8 @@ export class CommandService {
   constructor(private http: HttpClient) {}
 
   getAll() {
-    return this.http.get("https://cors-anywhere.herokuapp.com/https://discord-prox.herokuapp.com/help");
+    let header = new HttpHeaders();
+    header.set('Access-Control-Allow-Origin', '*')
+    return this.http.get("https://discord-prox.herokuapp.com/help", { headers: header });
   }
 }
