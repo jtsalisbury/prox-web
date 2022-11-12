@@ -26,6 +26,6 @@ export class CommandService {
   getAll() {
     let header = new HttpHeaders();
     header.set('Access-Control-Allow-Origin', '*')
-    return this.http.get("https://discord-prox.herokuapp.com/help", { headers: header });
+    return this.http.get("localhost:3000/help", { headers: header });
   }
 }
