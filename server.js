@@ -1,8 +1,10 @@
 //Install express server
 const express = require('express');
 const path = require('path');
-
 const app = express();
+
+const env = require("dotenv");
+env.config();
 
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist/prox-web'));
