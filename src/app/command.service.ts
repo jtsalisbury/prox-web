@@ -26,6 +26,6 @@ export class CommandService {
   getAll() {
     let header = new HttpHeaders();
     header.set('Access-Control-Allow-Origin', '*')
-    return this.http.get("localhost:3000/help", { headers: header });
+    return this.http.get("http://jtsalisbury.me:3001/help", { headers: header });
   }
 }
